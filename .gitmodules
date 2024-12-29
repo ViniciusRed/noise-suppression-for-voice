@@ -1,0 +1,14 @@
+[submodule "external/rnnoise"]
+    path = external/rnnoise
+    url = https://github.com/xiph/rnnoise
+    branch = main
+    
+[submodule "external/JUCE"] 
+    path = external/JUCE
+    url = https://github.com/juce-framework/JUCE.git
+    branch = master
+
+[submodule "external/FST"]
+    path = external/FST
+    url = https://git.iem.at/zmoelnig/FST.git 
+    branch = master

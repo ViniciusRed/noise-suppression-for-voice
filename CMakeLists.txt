@@ -1,5 +1,5 @@
 project("Real-time Noise Suppression Plugin")
-cmake_minimum_required(VERSION 3.6)
+cmake_minimum_required(VERSION 3.10)
 
 include(GNUInstallDirs)
 
@@ -10,7 +10,7 @@ set(CMAKE_BINARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(MINGW_ADDITIONAL_LINKING_FLAGS "-static-libgcc -static-libstdc++ -Wl,-Bstatic -lstdc++ -lpthread -Wl,-Bdynamic")
 
 if(NOT BUILD_VERSION)
-    set(BUILD_VERSION 1.99)
+    set(BUILD_VERSION 2.00)
 endif()
 
 option(USE_SYSTEM_JUCE "" OFF)
